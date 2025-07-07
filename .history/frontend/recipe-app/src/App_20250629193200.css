@@ -1,0 +1,83 @@
+
+html, body, #root {
+  width: 100%;
+ 
+  font-family: "Liter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.home{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+ 
+}
+
+.left h1{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #ff9560;
+}
+
+.left p{
+  color: #878787;
+ width: 60%;
+  font-size: 22px;
+}
+
+.left button{
+ background-color: #ff9560;
+ margin-top: 10px;
+ font-size: 18px;
+ color: white;
+ transition: all 0.3s ease;
+ border: none;
+ outline: none;
+}
+.left button:hover{
+  background-color: #cf4303;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.navbar .logo img{
+  width: 150px;
+  height: 150px;
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-right: 25px;
+  
+}
+
+.navbar ul li{
+  font-size: 20px;
+  padding: 10px;
+  transition: all 0.5s ease;
+}
+.navbar ul li a{
+  text-decoration: none;
+ color: #ff5601;
+  font-weight: 500;
+  
+}
+.navbar ul li:hover{
+  background-color: #ff9560;
+  border-radius: 7px;
+ 
+ 
+}
+.navbar ul li a:hover{
+  color: white;
+}

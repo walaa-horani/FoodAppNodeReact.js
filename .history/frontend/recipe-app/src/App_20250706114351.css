@@ -1,0 +1,178 @@
+
+html, body, #root {
+  width: 100%;
+ 
+  font-family: "Liter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.home{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+ 
+}
+
+.left h1{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #ff9560;
+}
+
+.left p{
+  color: #878787;
+ width: 60%;
+  font-size: 22px;
+}
+
+.modal-content{
+  border: none !important;
+}
+.modal-header{
+  border: none !important;
+}
+ button{
+ background-color: #ff9560;
+ margin-top: 10px;
+ font-size: 18px;
+ color: white;
+ transition: all 0.3s ease;
+ border: none;
+ outline: none;
+}
+.error{
+  margin-top: 10px;
+  color: red;
+  font-size: 16px;
+}
+
+header button{
+     background-color: #ff9560;
+ font-size: 18px;
+ margin: 0 !important;
+ color: white;
+ transition: all 0.3s ease;
+ border: none;
+ outline: none;
+
+}
+.recipe-card img{
+  height:300px;
+  object-fit: cover;
+  
+}
+.success{
+  margin-top: 10px;
+  color: green;
+  font-size: 16px;
+}
+ button:hover{
+  background-color: #cf4303;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.navbar .logo img{
+  width: 150px;
+  height: 150px;
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-right: 25px;
+  
+}
+
+.navbar ul li{
+  font-size: 20px;
+  padding: 15px;
+  transition: all 0.5s ease;
+}
+.navbar ul li a{
+  text-decoration: none;
+ color: #ff5601;
+  font-weight: 500;
+  
+}
+.navbar ul li:hover{
+  background-color: #ff9560;
+  border-radius: 7px;
+ 
+ 
+}
+.navbar ul li a:hover{
+  color: white;
+}
+
+.recipes-container{
+  padding: 2rem;
+  background-color: #fff3e6;
+  min-height: 100vh;
+}
+.cards-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 30px;
+
+
+
+}
+.bg{
+  margin-top: -150px;
+}
+.recipe-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 350px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  position: relative;
+}
+.recipe-card .icons{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #ff9560;
+  font-size: 24px;
+  
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+  background-color: #ff9560;
+  color: white;
+}
+.recipe-card:hover h4{
+  color: black;
+}
+
+.recipe-card:hover .icons{
+  color: white;
+}
+.recipe-card h4 {
+  margin-bottom: 0.5rem;
+  color: #ff6347;
+}
+
+.recipe-card p,
+.recipe-card small {
+  margin: 0.2rem 0;
+}
+
+
+
+

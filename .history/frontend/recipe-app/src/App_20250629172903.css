@@ -1,0 +1,17 @@
+.home{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #ff9560;
+}
+
+.left p{
+  color: #878787;
+  margin-top: 10px;
+}

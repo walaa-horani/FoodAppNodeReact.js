@@ -1,0 +1,42 @@
+
+html, body, #root {
+  width: 100%;
+  font-family: "Liter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.home{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 80%;
+}
+
+.left h1{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #ff9560;
+}
+
+.left p{
+  color: #878787;
+ 
+  font-size: 22px;
+}
+
+.left button{
+ background-color: #ff9560;
+ margin-top: 10px;
+ font-size: 18px;
+ color: white;
+ transition: all 0.3s ease;
+ border: none;
+ outline: none;
+}
+.left button:hover{
+  background-color: #cf4303;
+}

@@ -1,0 +1,34 @@
+
+html, body, #root {
+  width: 100%;
+ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.home{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #ff9560;
+}
+
+.left p{
+  color: #878787;
+  margin-top: 10px;
+}
+
+.left button{
+ background-color: #ff9560;
+ margin-top: 10px;
+ font-size: 18px;
+ color: white;
+}
